@@ -1,0 +1,85 @@
+/*
+ Theme Name:   My Child Theme
+ Author:       Saxon Denny
+ Description:  This is the first theme created by Saxon a child theme of WordPress' Twenty Sixteen theme
+ Template:     twentysixteen
+*/
+
+body{
+	font-family: Helvetica Neue;
+}
+
+.site-header{
+	background-color: rgba(25,22,22,0.7);
+	height: 70px;
+	position: relative;
+	padding: 0px;
+	width: 100%;
+	border-bottom: solid 1px white;
+}
+
+
+.site-branding .site-title a {
+	color: #FFFFFF;
+	position: absolute;
+	left: 20px;
+	bottom: 12%;
+	font-size: 40px;
+}
+
+
+
+.site{
+background-color: transparent;
+margin: 0px;
+}
+
+.menu-item a{
+	padding-bottom: 0px;
+}
+
+.site-header-menu{
+	position: absolute;
+	right: 20px;
+	bottom: 0%;
+	margin: 0px;
+}
+
+.main-navigation a{
+	color: #FFFFFF;
+}
+
+.site-footer{
+	position: absolute;	
+	top: 300px;
+	background-color: rgba(25,22,22,0.7);
+	height: 40px;
+	position: relative;
+	padding: 0px;
+	width: 100%;
+	border-top: solid 1px white;
+}
+
+.entry-content{
+	height: 100%;
+}
+
+.site-title{
+	padding-left: 20px;
+}
+
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a {
+    font-weight: 700;
+    color: #A7698D;
+}
+
+
+.widget{
+	width: 10px;
+}
+
+.article-container{
+	position: absolute;
+	right: 0px;
+	width: 50px;
+}
